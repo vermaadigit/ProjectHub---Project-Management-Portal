@@ -322,8 +322,8 @@ Auto Rename Tag
 ### **Step 1: Clone Repository**
 
 Clone the repository
-git clone https://github.com/shagufa-anjum1/Test-Check.git
-cd Test-Check
+git clone 
+cd 
 
 Alternative: Download ZIP
 Download from GitHub → Extract → Navigate to folder
@@ -570,6 +570,7 @@ Production: https://your-backend-domain.vercel.app/api
 POST /api/auth/register
 Content-Type: application/json
 
+```
 {
 "username": "johndoe",
 "email": "john@example.com",
@@ -577,6 +578,7 @@ Content-Type: application/json
 "firstName": "John",
 "lastName": "Doe"
 }
+```
 
 Response: 201 Created
 {
